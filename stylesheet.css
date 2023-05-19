@@ -24,7 +24,7 @@
     border: blue 5px solid;
     border-radius: 10px;
     box-shadow: 3px 4px 5px 5px #00000040;
-    max-width: 100%;
+    width: 100%;
 }
 
 #my-text-container {
