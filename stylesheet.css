@@ -1,0 +1,30 @@
+.separator {
+  background-color: blue;
+  height: 20px;
+  margin: 20px 0;
+  border-radius: 999px;
+  box-shadow: 3px 4px 5px 5px #00000040;
+  transition: .2s;
+  cursor:pointer;
+}
+
+.separator:hover {
+  opacity: 20%;
+}
+
+.super-container {
+  margin: 5px;
+}
+
+.image {
+    border: blue 5px solid;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px 5px #00000040;
+    max-width: 100%;
+}
+
+#my-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
