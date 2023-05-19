@@ -2,6 +2,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.hide {
+  display: none;
+}
+
 .separator {
   height: 20px;
   margin: 20px 0;
@@ -17,6 +21,25 @@
 
 .super-container {
   margin: 5px;
+}
+
+.button {
+  background: linear-gradient(90deg, rgba(85,21,255,1) 0%, rgba(173,87,255,1) 51%);
+  color: white;
+  padding: 7px 10px;
+  border-radius: 8px;
+  box-shadow: 3px 4px 5px 5px #00000040;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity:80%;
+}
+
+.buttons {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .image {
